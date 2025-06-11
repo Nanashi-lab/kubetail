@@ -43,6 +43,10 @@ version = "0.5.4"
 name = "rgkl"
 path = "src/main.rs"
 
+[lib]
+name = "rgkl"
+path = "src/lib.rs"
+
 [profile.dev]
 incremental = true
 debug = true
